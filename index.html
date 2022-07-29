@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="download-content">
+        <a href="#" class="download-btn">Descargar archivo &nbsp; <i class="fas fa-download"></i></a>
+        <div class="countdown"></div>
+        <div class="please-wait wait">Espere por favor...</div>
+        <div class="manualDownload-text">
+            Si la descarga no comenzó automáticamente, <a href="#" class="manualDownloadBtn">Click aqui.</a>
+        </div>
+    </div>
+
+<script src="app.js"></script>
+</body>
+
+</html>
+
+
+
+<!-- 
+
+    <div class="download_link" id="download_link">
+
+        <a class="preparing" href="#"><span>Preparing your download...</span></a>
+        <a class="input popsok" aria-label="Download file"
+            href="https://github.com/MattyuCode/alarm-clocks/archive/refs/heads/main.zip" id="downloadButton">
+            Download (8.01MB)
+        </a>
+        <a class="starting" href="#"><span>Your download is starting...</span></a>
+        <a class="retry"
+            href="https://www.mediafire.com/download_repair.php?qkey=7349c0s30ufjo49&amp;dkey=qo9g80ekgbj&amp;template=34&amp;origin=click_button">
+            <span class="notranslate">Download Started. <em>Repair your download</em></span>
+        </a>
+        <script type="text/javascript">
+            (function () {
+                var dl = document.getElementById('download_link');
+                if (!dl) return;
+                var init = false;
+
+                function retry() {
+                    dl.className += ' retry';
+                };
+
+                function download() {
+                    dl.className += ' started';
+                    window.dlStarted = true;
+                    setTimeout(retry, 16000);
+                };
+
+                window.initDownload = function () {
+                    if (init) return;
+                    init = true;
+                    dl.className = 'download_link';
+                    dl.onclick = download;
+                };
+
+                initDownload();
+            })();
+        </script>
+    </div>
+
+
+ -->

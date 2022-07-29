@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.download-content {
+    /* width: 500px; */
+    /* padding: 25px 35px;
+    background: #f6f6f6; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.download-content .download-btn {
+    border: none;
+    outline: none;
+    background: linear-gradient(40deg, hsl(196deg 97% 63%), rgb(38, 109, 240));
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    padding: 15px 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 550;
+    font-size: 13px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+.countdown {
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 25px 0;
+}
+
+.countdown span {
+    color: #0693f6;
+    font-size: 28px;
+    font-weight: 800;
+
+}
+
+.please-wait {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.please-wait.wait{
+    display: none;
+}
+
+.manualDownload-text {
+    font-size: 15px;
+    display: none;
+    font-weight: 600;
+}
+
+.manualDownload-text .manualDownloadBtn {
+    color: #0693f6;
+    font-weight: 800;
+    font-size: 16px;
+    text-decoration: none;
+}
