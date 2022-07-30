@@ -20,7 +20,7 @@ downloadBoton.addEventListener('click', () => {
             //cuando llega a 0 se ejecuta la funcion de clearInterval para cancelar el conteo
             clearInterval(descargaTime);
             pleaseWait.classList.remove("wait");
-            let download_href = "https://github.com/MattyuCode/alarm-clocks/archive/refs/heads/main.zip";
+            let download_href = "https://github.com/MattyuCode/pagina-web-UMG/archive/refs/heads/main.zip";
             // let download_href = "https://download1649.mediafire.com/qo9g80ekgbjg/7349c0s30ufjo49/proyect.zip";
 
             window.location.href = download_href;
